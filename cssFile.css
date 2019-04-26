@@ -10,7 +10,7 @@ div {
     background-image: url(/images/main.jpg);
 }
 .biology {
-    background-image: url(/images/bio-3.jpg);
+    background-image: url(/images/bio-2.jpg);
 }
 .physics {
     background-image: url(/images/phy-1.jpg);
@@ -84,6 +84,7 @@ div {
     border: hidden;
     width: 50%;
 }
+
 .input label {
     font-family: sans-serif;
     font-size: 16;

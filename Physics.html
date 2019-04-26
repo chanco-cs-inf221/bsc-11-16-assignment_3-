@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="HandheldFriendly" content="true">
         <link rel="stylesheet" type="text/css" href="cssFile.css">
+        <script src = "Phy_script.js"></script>
     </head>
     <body class="physics">
          <p class="align_centre">
@@ -25,6 +26,8 @@
         <div class="display">
             <h2>Enlisted People</h2>
             <ol id="P_enl">
+                <li>Alfonso Chabwera</li>
+                <p id="details"></p>
             </ol>
         </div>
         <p style="font-size: 20px;"><em>Enter details in the spaces below to enlist as one of the participant in one of the Physics programs.</em></p><br>
@@ -44,12 +47,12 @@
                         <option value="zambia">Zambia</option>
                         <option value="mozambique">Mozambique</option>
                     </select><br>
-                    <label>District of Origin</label><br>
-                    <input id="P_DoO" placeholder="Enter district of Origin"><br>
+                    <label>District</label><br>
+                    <input id="P_D" placeholder="Enter district of Origin"><br>
                     <label>Village</label><br>
                     <input id="P_V" placeholder="Enter village of origin"><br>
                     <label>Traditonal Authority</label><br>
-                    <input id="P_T/A" placeholder="Enter village traditional authority"><br>
+                    <input id="P_TA" placeholder="Enter village traditional authority"><br>
                     <label for="P_edu">Level of Education</label><br>
                     <select id="P_edu" name="edu">
                         <option value="JCE">JCE</option>
@@ -61,7 +64,7 @@
                     </select><br>
                     <label>Phone Number</label><br>
                     <input id="P_Phone" type="number" placeholder="Enter your phone number"><br>
-                    <button id="P_btn" class="button" type="button">Submit</button>
+                   <button id="CS_btn" class="button" type="button" onclick="submitAndList()">Submit</button><br>
                 </fieldset>
             </form>
         </div>

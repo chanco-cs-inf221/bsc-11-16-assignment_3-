@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="HandheldFriendly" content="true">
         <link rel="stylesheet" type="text/css" href="/cssFile.css">
+        <script src = "Home_script.js"></script>
     </head>
     <body class="main">
         <p class="align_centre">
@@ -45,7 +46,9 @@
         </div>
         </div>
         
-        <div id="disp" class="disp"></div>
+        <div id="disp" class="disp">
+            <p id= "display"></p>
+        </div>
         
         <div id="lnk" class="links">            
             <a id="BIO" href= "Biology.html">Participate in Biology research.</a><br>
@@ -53,8 +56,8 @@
             <a id="COM" href= "Computer_Science.html">Participate in Computer Science studies.</a><br>
        
             <form id="srch_frm" class="srch_form" >
-                <input id="srch1" class="srch" type="search" placeholder="Search for a participant"><br>
-                <button id="btn" type="button" class="button">SEARCH</button> 
+                <input id="srch" class="srch" type="search" placeholder="Search for a participant"><br>
+                <button id="srch_btn" type="button" class="button" onclick = "search()">SEARCH</button> 
             </form>
      
         </div>
