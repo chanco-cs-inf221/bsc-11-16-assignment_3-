@@ -1,0 +1,165 @@
+div {
+    text-align: center justify;
+    border: 4px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    border: groove skyblue;
+}
+.main{
+    background-image: url(/images/main.jpg);
+}
+.biology {
+    background-image: url(/images/bio-3.jpg);
+}
+.physics {
+    background-image: url(/images/phy-1.jpg);
+}
+.comp_sc {
+    background-image: url(/images/com-3.jpg);
+}
+.image {
+    border: 2px;
+    border-radius: 100%;
+    margin: 5px;
+    padding: 4px;
+}
+.container {
+    border: hidden;
+    overflow: hidden;
+}
+.BIO {
+    width: 30%;
+    background-color: limegreen;
+    float: left;
+    text-align: center;
+    border: solid;
+}
+.PHY {    
+    width: 30%;
+    background-color: aquamarine;
+    float: left;
+    text-align: center;
+    border: solid;
+}
+.COMP { 
+    width : 30%;
+    background-color: aqua;
+    float: left;
+    text-align: center;
+    border: solid;
+    }
+.srch_form {
+    float: right;
+    border: hidden;
+    padding: 3px;
+}
+.srch {
+    border-radius: 7px;
+    padding: 5px;
+    margin: 2px;
+}
+
+.links{
+    width: 95%;
+    height: 130px;
+    background-color: burlywood;
+}
+.links p {
+   float:left;
+    color: blue;
+}
+.button{
+    color: navy;
+    background-color: greenyellow;
+    border-radius: 8px;
+    padding: 7px;
+    margin: 10px;
+    cursor: pointer;
+}
+.disp{
+    border: hidden;
+}
+.input {
+    border: hidden;
+    width: 50%;
+}
+.input label {
+    font-family: sans-serif;
+    font-size: 16;
+}
+.input input {
+    width: 40%;
+    margin: 5px;
+    border-radius: 5px;
+    border-width: medium;
+}
+.input select {
+    width: 40%;
+    border-width: medium;
+    border-radius: 5px;
+    margin: 5px;
+}
+.input legend{
+    color: brown;
+    border: hidden;
+    
+}
+.display {
+    border: hidden;
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    text-align: justify;
+    font-family: serif;
+}
+.align_centre {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blue;
+}
+.active {
+    background-color: peru;
+}
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
